@@ -49,8 +49,9 @@ body {
   background-color: var(--first-color);
   color: var(--text-color);
   font-weight: 700;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
 }
 
 .footer {

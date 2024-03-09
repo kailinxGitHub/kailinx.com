@@ -12,7 +12,7 @@
                 o = n.displacementImage,
                 a = n.image1,
                 s = n.image2,
-                f = i(n.imagesRatio, 1.5),
+                f = i(n.imagesRatio, 1),
                 d = i(n.intensity1, n.intensity, 1),
                 l = i(n.intensity2, n.intensity, 1),
                 u = i(n.angle, Math.PI / 4),
