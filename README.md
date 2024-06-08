@@ -30,5 +30,9 @@ npm run dev
 
 5. Open the browser and go to http://localhost:5173/ to see the web page
 
+## Wireframe
+![wireframe.png](md_assets/wireframe.png)
+
+
 ## Resources
 Widgets, Icons, and Components: https://mui.com/material-ui 
