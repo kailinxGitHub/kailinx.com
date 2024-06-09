@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import Nav from './Nav.jsx'
+import './styles/index.css'
+import TopSection from "./TopSection.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        {/*<Nav />*/}
-        <App />
+        <div className="flex flex-col items-center justify-center h-screen mx-auto left-0 top-0 w-full">
+            <TopSection />
+        </div>
     </React.StrictMode>,
 )

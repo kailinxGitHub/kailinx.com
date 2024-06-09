@@ -35,4 +35,6 @@ npm run dev
 
 
 ## Resources
-Widgets, Icons, and Components: https://mui.com/material-ui 
+Widgets, Icons, and Components: 
+- https://flowbite.com/
+- https://mui.com/material-ui
