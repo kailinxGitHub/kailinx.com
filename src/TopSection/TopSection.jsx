@@ -1,5 +1,5 @@
 import Nav from './Nav.jsx'
-import "./styles/TopSection.css"
+import "../styles/TopSection.css"
 
 function TopSection() {
     return (
