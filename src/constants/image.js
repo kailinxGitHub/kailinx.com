@@ -1,6 +1,5 @@
 import me from "../assets/me.jpeg"
 
-import upworkIcon from "../assets/upwork.svg";
 import emailIcon from "../assets/email.svg";
 import githubIcon from "../assets/github.svg";
 import linkedinIcon from "../assets/linkedin.svg";
@@ -43,7 +42,6 @@ export default {
   me,
 
   emailIcon,
-  upworkIcon,
   githubIcon,
   linkedinIcon,
   bluecheckImage,
