@@ -42,7 +42,7 @@ const HeroSection = () => {
             </motion.h1>
           </div>
         </div>
-        <div className="w-full relative bottom-20 md:w-auto md:absolute md:top-[65%]">
+        <div className="w-full relative bottom-20 md:w-auto md:absolute md:top-[60%]">
           <ul className="flex flex-row justify-center items-center w-full gap-6 md:flex-col">
             {socials.map((social, index) => (
               <motion.li

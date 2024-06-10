@@ -76,13 +76,15 @@ const TabSection = () => {
         >
           <TabList className="bg-primary flex flex-col justify-center items-center mx-auto rounded-xl mb-16 w-full dark:bg-primary-500 md:w-max md:flex-row">
             <Tab className="text-white w-full text-center cursor-pointer px-8 py-4 font-semibold focus-within:bg-secondary-400 md:w-max dark:focus-within:bg-secondary rounded-t-xl md:rounded-l-xl md:rounded-tr-none">
-              Know me more
+              more about me
             </Tab>
             <Tab className="text-white w-full text-center cursor-pointer  px-8 py-4 font-semibold focus-within:bg-secondary-400 md:w-max dark:focus-within:bg-secondary rounded-t-none rounded-b-xl md:rounded-l-none md:rounded-r-xl">
-              Technical Skills
+              technical skills
             </Tab>
           </TabList>
         </motion.div>
+
+        {/*About Me Tab*/}
         <TabPanel className="flex gap-20 items-center flex-col-reverse md:flex-row-reverse transition-all">
           <motion.div
             viewport={{ once: true }}
@@ -147,6 +149,8 @@ const TabSection = () => {
             />
           </motion.div>
         </TabPanel>
+
+        {/*Technical Skills Tab*/}
         <TabPanel className="flex gap-20 items-center flex-col md:flex-row-reverse transition-all">
           <div className="w-full text-center text-white max-w-3xl mx-auto md:h-[450px]">
             <motion.div
