@@ -4,8 +4,6 @@ import { Fragment } from "react";
 import { Popover, Transition, Dialog } from "@headlessui/react";
 import { XIcon, MenuAlt1Icon } from "@heroicons/react/outline";
 import { MoonIcon, SunIcon } from "@heroicons/react/solid";
-import ContactModal from "../ContactModal";
-import { Form } from "../ContactModal/Form";
 import { motion } from "framer-motion";
 import useDarkMode from "../../hooks/useDarkMode";
 
@@ -77,7 +75,7 @@ export default function NavBar() {
       >
         <div className="flex justify-end items-center px-0 py-4 gap-4 sm:px-6 lg:py-8 lg:gap-10">
           <div className="mr-auto">
-            <a href="#home">
+            <a href="https://www.kailinx.com/">
               {darkTheme ? (
                 <img
                   className="h-12 w-auto"
@@ -134,11 +132,6 @@ export default function NavBar() {
               </a>
             ))}
           </Popover.Group>
-          <div className="hidden lg:flex">
-            <ContactModal toggleOpen={modalIsOpen} toggleClose={toggleModal}>
-              <Form />
-            </ContactModal>
-          </div>
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -236,14 +229,6 @@ export default function NavBar() {
                       </a>
                     ))}
                   </nav>
-                  <div className="mt-10 flex lg:hidden">
-                    <ContactModal
-                      toggleOpen={modalIsOpen}
-                      toggleClose={toggleModal}
-                    >
-                      <Form />
-                    </ContactModal>
-                  </div>
                 </div>
               </div>
             </div>
