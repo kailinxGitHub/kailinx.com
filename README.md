@@ -30,11 +30,9 @@ npm run dev
 
 5. Open the browser and go to http://localhost:5173/ to see the web page
 
-## Wireframe
-![wireframe.png](md_assets/wireframe.png)
-
-
 ## Resources
+Website Design and Full Credit to: https://github.com/felixmacaspac/felixmacaspac.dev
+
 Widgets, Icons, and Components: 
 - https://flowbite.com/
 - https://mui.com/material-ui
