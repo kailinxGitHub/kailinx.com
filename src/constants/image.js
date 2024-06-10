@@ -1,7 +1,6 @@
 import upworkIcon from "../assets/upwork.svg";
 import emailIcon from "../assets/email.svg";
 import githubIcon from "../assets/github.svg";
-import codepenIcon from "../assets/codepen.svg";
 import linkedinIcon from "../assets/linkedin.svg";
 import htmlLogo from "../assets/logo/html-logo.svg";
 import cssLogo from "../assets/logo/css-logo.svg";
@@ -23,12 +22,12 @@ import errorIllustration from "../assets/illustrations/404-vector.svg";
 import successIllustration from "../assets/illustrations/success-vector.svg";
 import brandLogoLight from "../assets/icons/logo-light.png";
 import brandLogoDark from "../assets/icons/logo-dark.png";
+import x from "../assets/x.svg";
 
 export default {
   emailIcon,
   upworkIcon,
   githubIcon,
-  codepenIcon,
   linkedinIcon,
   htmlLogo,
   cssLogo,
@@ -50,4 +49,5 @@ export default {
   successIllustration,
   brandLogoLight,
   brandLogoDark,
+  x,
 };

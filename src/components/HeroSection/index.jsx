@@ -6,17 +6,22 @@ const socials = [
   {
     logo: images.linkedinIcon,
     alt: "Linkedin Icon",
-    link: "https://www.linkedin.com/in/felixmacaspac/",
+    link: "https://www.linkedin.com/in/kailinx",
   },
   {
     logo: images.githubIcon,
     alt: "Github Icon",
-    link: "https://github.com/felixmacaspac",
+    link: "https://github.com/kailinxGitHub",
   },
   {
-    logo: images.codepenIcon,
-    alt: "Codepen Icon",
-    link: "https://codepen.io/fmcmacaspac",
+    logo: images.x,
+    alt: "X Icon",
+    link: "https://x.com/kailinxcom",
+  },
+  {
+    logo: images.emailIcon,
+    alt: "Email Icon",
+    link: "mailto:kailinxgoogl@gmail.com",
   },
 ];
 
@@ -33,11 +38,11 @@ const HeroSection = () => {
               transition={{ type: "linear", duration: 0.5 }}
               className="hero__heading"
             >
-              Felix M.
+              kailin x.
             </motion.h1>
           </div>
         </div>
-        <div className="w-full relative bottom-20 md:w-auto md:absolute md:top-[70%]">
+        <div className="w-full relative bottom-20 md:w-auto md:absolute md:top-[65%]">
           <ul className="flex flex-row justify-center items-center w-full gap-6 md:flex-col">
             {socials.map((social, index) => (
               <motion.li

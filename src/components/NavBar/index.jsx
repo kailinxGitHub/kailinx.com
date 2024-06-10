@@ -11,23 +11,23 @@ import useDarkMode from "../../hooks/useDarkMode";
 
 const navlinks = [
   {
-    name: "Home",
+    name: "home",
     href: "#home",
   },
   {
-    name: "About",
+    name: "about",
     href: "#about",
   },
   {
-    name: "Experience",
+    name: "experience",
     href: "#experience",
   },
   {
-    name: "Projects",
+    name: "projects",
     href: "#projects",
   },
   {
-    name: "Uses",
+    name: "uses",
     href: "#uses",
   },
 ];

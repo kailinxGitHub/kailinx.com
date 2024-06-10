@@ -23,12 +23,12 @@
 
   .hero__heading::before {
     @apply text-xs text-primary-400 font-medium font-default absolute -top-6 -left-2 sm:text-base dark:text-opacity-80 dark:text-white;
-    content: "I AM";
+    content: "i am";
   }
 
   .hero__heading::after {
     @apply text-xs text-primary-400 font-medium font-default absolute -bottom-6 -right-10 sm:text-base dark:text-opacity-80 dark:text-white;
-    content: "FRONT-END DEVELOPER";
+    content: "research assistant | software engineer";
   }
 }
 
