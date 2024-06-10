@@ -1,14 +1,15 @@
 import { useState } from "react";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
-import TabSection from "./components/TabSection";
-import TwoColumnCard from "./components/TwoColumnCard";
+import AboutMe from "./components/AboutMe";
+import Education from "./components/Education"
+import Experiences from "./components/Experiences";
 import FeaturedAlternate from "./components/FeaturedAlternate";
 import Footer from "./components/Footer";
-import UsesList from "./components/UsesList";
 
 import "./index.css";
 import SectionWrapper from "./components/Global/SectionWrapper";
+import TechnicalSkills from "./components/TechnicalSkills/index.jsx";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -23,17 +24,20 @@ function App() {
         <>
           <NavBar />
           <HeroSection />
-          <SectionWrapper id="about" heading="ABOUT ME">
-            <TabSection />
+          <SectionWrapper id="about" heading="about me">
+            <AboutMe />
           </SectionWrapper>
-          <SectionWrapper id="experience" heading="EXPERIENCE">
-            <TwoColumnCard />
+          <SectionWrapper id="education" heading="education">
+            <Education />
           </SectionWrapper>
-          <SectionWrapper id="projects" heading="PROJECTS">
+          <SectionWrapper id="technical" heading="technical skills">
+            <TechnicalSkills />
+          </SectionWrapper>
+          <SectionWrapper id="experiences" heading="experiences">
+            <Experiences />
+          </SectionWrapper>
+          <SectionWrapper id="projects" heading="projects">
             <FeaturedAlternate />
-          </SectionWrapper>
-          <SectionWrapper id="uses" heading="USES">
-            <UsesList />
           </SectionWrapper>
           <Footer />
         </>

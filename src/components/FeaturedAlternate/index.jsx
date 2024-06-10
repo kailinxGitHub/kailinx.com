@@ -7,81 +7,84 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    image: images.agencyImage,
-    heading: "Agency Website",
+    image: images.advisoru,
+    heading: "advisoru",
     description:
-      "<p>A sample agency website, with blog listing and blog single. I also implemented this in a way that it would be easy for the HubSpot content editors to edit it.</p>",
-    websiteLink: "https://22288485.hs-sites.com/",
+      "<p>advisoru is a web-based application that employs rag (retrieval-augmented generation) and llm (large language models) technologies to provide an interactive chatbot. this ai advisor assists students in exploring their required courses, answering academic questions with detailed data, and offering personalized guidance. additionally, advisoru features a comprehensive visual planner for mapping out all four years of college and a search functionality that encompasses every course offered at northeastern university.</p>",
+    websiteLink: "https://devpost.com/software/advisoru",
+    githubLink: "https://github.com/AdvisorU",
     // techno
+    python: true,
+    django:true,
+    sql: true,
+    javascript: true,
     html: true,
     css: true,
-    javascript: true,
-    hubspot: true,
   },
-  {
-    id: 2,
-    image: images.bluecheckImage,
-    heading: "Bluecheck",
-    description:
-      "<Also>One of my first freelance project.<p/> <br/> <p>I had some fun working with this project <i>independently.</i> Also improved a lot with the HubSpot CMS and tailwind CSS</p>",
-    html: true,
-    css: true,
-    javascript: true,
-    hubspot: true,
-    tailwind: true,
-  },
-  {
-    id: 3,
-    image: images.slothImage,
-    heading: "The Language Sloth Website",
-    description:
-      "<p>I would say this is the first projet that I collaborated with an online friend (who is responsible for the backend development) for the backend we used django with a combination of the discord auth. <br> <br> Initially the plan was to implement this using react but due to some time conflict we agreed to just use django + basic HTML & TailwindCSS.</p>",
-    websiteLink: "https://languagesloth.com/",
-    // techno
-    html: true,
-    css: true,
-    javascript: true,
-    tailwind: true,
-  },
-  {
-    id: 4,
-    image: images.shortlyImage,
-    heading: "Shortly",
-    description:
-      "One of my frontendmentor.io challenge projects! Had a good one working with this one and enhance my JavaScript and CSS skills.",
-    websiteLink: "https://shorten-app.netlify.app/",
-    githubLink: "https://github.com/felixmacaspac/fem-url-shortener-website",
-    // techno
-    html: true,
-    css: true,
-    javascript: true,
-  },
-  {
-    id: 5,
-    image: images.sunnysideImage,
-    heading: "Sunnyside",
-    description:
-      "<p>Simple frontendmentor.io challenge project! Also had a lot of fun working with the UI of this project.</p>",
-    websiteLink: "https://sunny-page.netlify.app/",
-    githubLink: "https://github.com/felixmacaspac/fem-sunnyside-landing-page",
-    // techno
-    html: true,
-    css: true,
-    javascript: true,
-  },
-  {
-    id: 6,
-    image: images.catifyImage,
-    heading: "Catify",
-    description:
-      "<p>Started this project way back 2020. One of my first project when I was self-studying front-end development.</p> <br/> <p>Fun fact: I had this project idea because of tinder lol! instead of <i>people</i> this website is for cats! </p>",
-    websiteLink: "https://catify-app.netlify.app/",
-    githubLink: "https://github.com/felixmacaspac/catify-landing-page",
-    // techno
-    html: true,
-    css: true,
-    javascript: true,
-  },
+  // {
+  //   id: 2,
+  //   image: images.bluecheckImage,
+  //   heading: "Bluecheck",
+  //   description:
+  //     "<Also>One of my first freelance project.<p/> <br/> <p>I had some fun working with this project <i>independently.</i> Also improved a lot with the HubSpot CMS and tailwind CSS</p>",
+  //   html: true,
+  //   css: true,
+  //   javascript: true,
+  //   hubspot: true,
+  //   tailwind: true,
+  // },
+  // {
+  //   id: 3,
+  //   image: images.slothImage,
+  //   heading: "The Language Sloth Website",
+  //   description:
+  //     "<p>I would say this is the first projet that I collaborated with an online friend (who is responsible for the backend development) for the backend we used django with a combination of the discord auth. <br> <br> Initially the plan was to implement this using react but due to some time conflict we agreed to just use django + basic HTML & TailwindCSS.</p>",
+  //   websiteLink: "https://languagesloth.com/",
+  //   // techno
+  //   html: true,
+  //   css: true,
+  //   javascript: true,
+  //   tailwind: true,
+  // },
+  // {
+  //   id: 4,
+  //   image: images.shortlyImage,
+  //   heading: "Shortly",
+  //   description:
+  //     "One of my frontendmentor.io challenge projects! Had a good one working with this one and enhance my JavaScript and CSS skills.",
+  //   websiteLink: "https://shorten-app.netlify.app/",
+  //   githubLink: "https://github.com/felixmacaspac/fem-url-shortener-website",
+  //   // techno
+  //   html: true,
+  //   css: true,
+  //   javascript: true,
+  // },
+  // {
+  //   id: 5,
+  //   image: images.sunnysideImage,
+  //   heading: "Sunnyside",
+  //   description:
+  //     "<p>Simple frontendmentor.io challenge project! Also had a lot of fun working with the UI of this project.</p>",
+  //   websiteLink: "https://sunny-page.netlify.app/",
+  //   githubLink: "https://github.com/felixmacaspac/fem-sunnyside-landing-page",
+  //   // techno
+  //   html: true,
+  //   css: true,
+  //   javascript: true,
+  // },
+  // {
+  //   id: 6,
+  //   image: images.catifyImage,
+  //   heading: "Catify",
+  //   description:
+  //     "<p>Started this project way back 2020. One of my first project when I was self-studying front-end development.</p> <br/> <p>Fun fact: I had this project idea because of tinder lol! instead of <i>people</i> this website is for cats! </p>",
+  //   websiteLink: "https://catify-app.netlify.app/",
+  //   githubLink: "https://github.com/felixmacaspac/catify-landing-page",
+  //   // techno
+  //   html: true,
+  //   css: true,
+  //   javascript: true,
+  // },
 ];
 
 const CardGrid = () => {
@@ -163,82 +166,210 @@ const CardGrid = () => {
                 </div>
               </div>
               <div className="flex flex-wrap items-center gap-4 py-6">
-                {proj.html && (
-                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
-                    <img
-                      className="h-8 object-contain dark:filter dark:invert"
-                      src={images.htmlLogo}
-                      alt="html logo"
-                      width={32}
-                      height={32}
-                    />
-                  </div>
+                {proj.python && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.pythonLogo}
+                          alt="python logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
                 )}
-                {proj.css && (
-                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
-                    <img
-                      className="h-8 object-contain dark:filter dark:invert"
-                      src={images.cssLogo}
-                      alt="css logo"
-                      width={32}
-                      height={32}
-                    />
-                  </div>
+
+                {proj.c && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.cLogo}
+                          alt="c logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
                 )}
+
+                {proj.cpp && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.cppLogo}
+                          alt="cpp logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
+                )}
+
+                {proj.java && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.javaLogo}
+                          alt="java logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
+                )}
+
                 {proj.javascript && (
-                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
-                    <img
-                      className="h-8 object-contain dark:filter dark:invert"
-                      src={images.javascriptLogo}
-                      alt="javascript logo"
-                      width={32}
-                      height={32}
-                    />
-                  </div>
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.javascriptLogo}
+                          alt="javascript logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
                 )}
-                {proj.react && (
-                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
-                    <img
-                      className="h-8 object-contain dark:filter dark:invert"
-                      src={images.reactLogo}
-                      alt="react logo"
-                      width={32}
-                      height={32}
-                    />
-                  </div>
+
+                {proj.sql && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.sqlLogo}
+                          alt="sql logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
                 )}
-                {proj.next && (
-                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
-                    <img
-                      className="h-8 object-contain dark:filter dark:invert"
-                      src={images.htmlLogo}
-                      alt="nextJS logo"
-                      width={32}
-                      height={32}
-                    />
-                  </div>
+
+                {proj.kotlin && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.kotlinLogo}
+                          alt="kotlin logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
                 )}
-                {proj.hubspot && (
-                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
-                    <img
-                      className="h-8 object-contain dark:filter dark:invert"
-                      src={images.hubspotLogo}
-                      alt="hubspot logo"
-                      width={32}
-                      height={32}
-                    />
-                  </div>
+
+                {proj.matlab && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.matlabLogo}
+                          alt="matlab logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
                 )}
+
+                {proj.html && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.htmlLogo}
+                          alt="html logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
+                )}
+
+                {proj.css && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.cssLogo}
+                          alt="css logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
+                )}
+
+                {proj.latex && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.latexLogo}
+                          alt="latex logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
+                )}
+
+                // frameworks and tools
+
+                {proj.flask && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.flaskLogo}
+                          alt="flask logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
+                )}
+
+                {proj.djangoproject && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.djangoprojectLogo}
+                          alt="django logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
+                )}
+
+                {proj.numpy && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.numpyLogo}
+                          alt="numpy logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
+                )}
+
+                {proj.express && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.expressLogo}
+                          alt="express logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
+                )}
+
+                {proj.mysql && (
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.mysqlLogo}
+                          alt="mysql logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
+                )}
+
                 {proj.tailwind && (
-                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
-                    <img
-                      className="h-8 object-contain dark:filter dark:invert"
-                      src={images.tailwindLogo}
-                      alt="tailwind logo"
-                      width={32}
-                      height={32}
-                    />
-                  </div>
+                    <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                      <img
+                          className="h-8 object-contain dark:filter dark:invert"
+                          src={images.tailwindLogo}
+                          alt="tailwind logo"
+                          width={32}
+                          height={32}
+                      />
+                    </div>
                 )}
               </div>
             </div>

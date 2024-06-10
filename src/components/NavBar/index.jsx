@@ -19,16 +19,20 @@ const navlinks = [
     href: "#about",
   },
   {
-    name: "experience",
-    href: "#experience",
+    name: "education",
+    href: "#education",
+  },
+  {
+    name: "technical skills",
+    href: "#technical",
+  },
+  {
+    name: "experiences",
+    href: "#experiences",
   },
   {
     name: "projects",
     href: "#projects",
-  },
-  {
-    name: "uses",
-    href: "#uses",
   },
 ];
 

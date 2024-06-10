@@ -36,3 +36,5 @@ Website Design and Full Credit to: https://github.com/felixmacaspac/felixmacaspa
 Widgets, Icons, and Components: 
 - https://flowbite.com/
 - https://mui.com/material-ui
+- https://www.svgrepo.com/
+- https://www.iconfinder.com/

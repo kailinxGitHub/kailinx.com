@@ -26,7 +26,7 @@ const SectionWrapper = ({
             transition={{ type: "linear", duration: 0.5 }}
             className={`${
               textCenter && "xl:text-center"
-            }  font-display uppercase text-primary text-3xl text-center xl:text-left lg:text-5xl dark:text-white`}
+            }  font-display lowercase text-primary text-3xl text-center xl:text-left lg:text-5xl dark:text-white`}
           >
             {heading}
           </motion.h1>
