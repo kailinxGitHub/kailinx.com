@@ -32,6 +32,10 @@ const navlinks = [
     name: "projects",
     href: "#projects",
   },
+  {
+    name: "resume",
+    href: "../public/resume.pdf",
+  },
 ];
 
 export default function NavBar() {
