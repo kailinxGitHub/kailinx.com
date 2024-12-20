@@ -1,0 +1,55 @@
+@import '../index.css';
+
+.card {
+    width: 15rem;
+    height: 8rem;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card:hover {
+    border-radius: 2rem;
+    box-shadow: 0px 0px 3rem var(--cool-gray);
+}
+
+.card-diffuse {
+    width: 12.5rem;
+    height: 8rem;
+    position: absolute;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.card-title {
+    height: auto;
+    text-align: center;
+    color: var(--white);
+    font-size: 1.75rem;
+}
+
+.card-background {
+    width: 12rem;
+    height: 4rem;
+    position: absolute;
+    top: 3rem;
+    background: var(--glaucous);
+    border-radius: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.card-icon {
+    width: 12rem;
+    height: 12rem;
+    overflow: hidden;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

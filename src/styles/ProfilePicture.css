@@ -1,0 +1,27 @@
+@import '../index.css';
+
+.profile-picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--black);
+    flex-shrink: 0;
+}
+
+.profile-picture {
+    width: 14rem;
+    height: 14rem;
+    overflow: hidden;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.background-blur {
+    position: absolute;
+    width: 14rem;
+    height: 14rem;
+    background: #6C809A;
+    box-shadow: 0px 0px 15rem var(--slateGray);
+    border-radius: 9999px;
+    filter: blur(300px);
+}

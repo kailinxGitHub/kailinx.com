@@ -1,3 +1,4 @@
+@import './styles/roboto.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,5 +7,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    position: relative;
+    height: 75vh;
+    background-color: var(--black);
+    font-family: "Roboto", serif;
+    --black: #1C1D21;
+    --white: #FFFFFF;
+    --glaucous: #6E75A8;
+    --cool-gray: #8D91C7;
+    --slate-gray: #6C809A;
 }

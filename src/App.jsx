@@ -1,7 +1,13 @@
+import Name from "./components/Name";
+import ProfilePicture from "./components/ProfilePicture";
+import SocialMediaColumn from "./components/SocialMediaColumn";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold">Hello world!</h1>
+      <ProfilePicture />
+      <Name />
+      <SocialMediaColumn />
     </>
   );
 }

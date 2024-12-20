@@ -1,0 +1,12 @@
+@import '../index.css';
+
+.name {
+    color: var(--white);
+    font-size: 96px;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 6rem;
+}
