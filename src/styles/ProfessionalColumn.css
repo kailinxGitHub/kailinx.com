@@ -1,0 +1,40 @@
+@import "../index.css";
+
+.professional-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+}
+
+.prof-card-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.prof-card {
+    width: 15rem;
+    height: 5rem;
+    background: var(--glaucous);
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.prof-card:hover {
+    border-radius: 3rem;
+    box-shadow: 0px 0px 1rem var(--cool-gray);
+}
+
+.card-text {
+    text-align: center;
+    color: var(--black);
+    font-size: 2rem;
+    text-transform: capitalize;
+    white-space: nowrap;
+}

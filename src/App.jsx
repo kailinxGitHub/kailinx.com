@@ -1,6 +1,7 @@
 import Name from "./components/Name";
 import ProfilePicture from "./components/ProfilePicture";
 import SocialMediaColumn from "./components/SocialMediaColumn";
+import ProfessionalColumn from "./components/ProfessionalColumn";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <ProfilePicture />
       <Name />
       <SocialMediaColumn />
+      <ProfessionalColumn />
     </>
   );
 }
