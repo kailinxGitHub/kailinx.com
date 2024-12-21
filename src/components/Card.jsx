@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import "../styles/Card.css";
-import "../styles/Roboto.css";
+import "../styles/roboto.css";
 
 function Card({ title, object, link }) {
   return (
