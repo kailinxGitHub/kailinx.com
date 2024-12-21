@@ -1,4 +1,5 @@
 import "../styles/ProfilePicture.css";
+import ProfilePictureImage from "../assets/ProfilePicture.png";
 
 function ProfilePicture() {
   return (
@@ -6,7 +7,7 @@ function ProfilePicture() {
       <div className="background-blur"></div>
       <img
         className="profile-picture"
-        src="src/assets/ProfilePicture.png"
+        src={ProfilePictureImage}
         alt="Profile Picture"
       />
     </div>
