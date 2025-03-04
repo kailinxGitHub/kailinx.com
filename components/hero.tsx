@@ -50,7 +50,15 @@ export function Hero() {
         </div>
         <div className="flex justify-center md:justify-end">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
-            <Image src="/pfp.jpeg?height=320&width=320" alt="John Doe" fill className="object-cover" priority />
+            <Image 
+              src="/pfp.jpeg" 
+              alt="Kailin Xing" 
+              fill 
+              className="object-cover" 
+              priority
+              sizes="(max-width: 768px) 256px, 320px"
+              quality={90}
+            />
           </div>
         </div>
       </div>
