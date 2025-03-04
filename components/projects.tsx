@@ -113,8 +113,7 @@ export function Projects() {
                           fill 
                           className="object-cover"
                           priority
-                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                          quality={75}
+                          unoptimized
                         />
                         <Button
                           variant="secondary"
@@ -137,8 +136,7 @@ export function Projects() {
                           height={720}
                           className="w-auto h-auto max-w-full max-h-[70vh]"
                           priority
-                          sizes="(max-width: 1200px) 90vw, 1200px"
-                          quality={75}
+                          unoptimized
                         />
                       </div>
                     </DialogContent>
